@@ -1,0 +1,105 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa skill for unit conversion",
+          "examplePhrases": [
+            "Alexa, open unit converter",
+            "open, unit converter",
+            "Alexa, open the unit converter"
+          ],
+          "keywords": [
+            "Centimeters",
+            "yards",
+            "meters",
+            "inches",
+            "kilometers"
+          ],
+          "name": "ConversorUnidades",
+          "description": "Allows the conversion of units as requested, such as yards to centimeters, inches to meters, etc",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Only converts units that are requested and included within the slots",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Skill de alexa para el uso de conversion de unidades",
+          "examplePhrases": [
+            "Alexa, Abre conversor unidades",
+            "Alexa, abre el conversor unidades",
+            "conversor unidades"
+          ],
+          "keywords": [
+            "centímetros",
+            "yardas",
+            "metros",
+            "pulgadas",
+            "kilómetros"
+          ],
+          "name": "ConversorUnidades",
+          "description": "Permite realizar la conversion de las unidades que le solicita como yardas a centimetros, pulgadas a metros etc",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "updatesDescription": "Solo conversion de unidades a las que se le solicita y contenga dentro de los slots",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Skill de conversion de unidades\"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:730335460572:function:301da2bc-9101-4874-ba86-0a5d86d50da8:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:730335460572:function:301da2bc-9101-4874-ba86-0a5d86d50da8:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:730335460572:function:301da2bc-9101-4874-ba86-0a5d86d50da8:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:730335460572:function:301da2bc-9101-4874-ba86-0a5d86d50da8:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://uthh.edu.mx",
+          "privacyPolicyUrl": "https://uthh.edu.mx"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "https://uthh.edu.mx",
+          "privacyPolicyUrl": "https://uthh.edu.mx"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hello world",
+            "say hello",
+            "hello world"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "unitType",
+              "type": "UNIT_TYPE"
+            }
+          ],
+          "name": "ConversorIntent",
+          "samples": [
+            "how much is {numUno} {unitType}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Feet to Yards"
+              }
+            },
+            {
+              "name": {
+                "value": "Feet to Kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "Feet to Meters"
+              }
+            },
+            {
+              "name": {
+                "value": "Feet to Centimeters"
+              }
+            },
+            {
+              "name": {
+                "value": "Inches to Feet"
+              }
+            },
+            {
+              "name": {
+                "value": "Inches to Yards"
+              }
+            },
+            {
+              "name": {
+                "value": "Inches to Kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "Inches to Meters"
+              }
+            },
+            {
+              "name": {
+                "value": "Inches to Centimeters"
+              }
+            },
+            {
+              "name": {
+                "value": "Yards to Inches"
+              }
+            },
+            {
+              "name": {
+                "value": "Yards to Kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "Yards to Feet"
+              }
+            },
+            {
+              "name": {
+                "value": "Yards to Meters"
+              }
+            },
+            {
+              "name": {
+                "value": "Yards to Centimeters"
+              }
+            },
+            {
+              "name": {
+                "value": "Kilometers to Feet"
+              }
+            },
+            {
+              "name": {
+                "value": "Kilometers to Inches"
+              }
+            },
+            {
+              "name": {
+                "value": "Kilometers to Yards"
+              }
+            },
+            {
+              "name": {
+                "value": "Meters to Feet"
+              }
+            },
+            {
+              "name": {
+                "value": "Meters to Inches"
+              }
+            },
+            {
+              "name": {
+                "value": "Meters to Yards"
+              }
+            },
+            {
+              "name": {
+                "value": "Centimeters to Feet"
+              }
+            },
+            {
+              "name": {
+                "value": "Centimeters to Inches"
+              }
+            },
+            {
+              "name": {
+                "value": "Centimeters to Yards"
+              }
+            },
+            {
+              "name": {
+                "value": "Kilometers to Centimeters"
+              }
+            },
+            {
+              "name": {
+                "value": "Kilometers to Meters"
+              }
+            },
+            {
+              "name": {
+                "value": "Meters to Kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "Meters to Centimeters"
+              }
+            },
+            {
+              "name": {
+                "value": "Centimeters to Kilometers"
+              }
+            },
+            {
+              "name": {
+                "value": "Centimeters to Meters"
+              }
+            }
+          ],
+          "name": "UNIT_TYPE"
+        }
+      ],
+      "invocationName": "unit converter"
+    }
+  }
+}
